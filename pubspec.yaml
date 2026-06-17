@@ -1,0 +1,30 @@
+name: near_talk
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.32.10
+  flutter_screenutil: ^5.9.3
+  image_picker: ^1.1.2
+  intl: ^0.20.2
+  location: ^7.0.1
+  nearby_connections: ^4.3.0
+  path_provider: ^2.1.5
+  permission_handler: ^11.4.0
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
